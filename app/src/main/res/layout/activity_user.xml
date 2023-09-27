@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/big_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/michicate"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Andres Felipe Diaz Serrano"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="U00167496"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Row with 1-star rating and text -->
+        <TableRow>
+            <RatingBar
+                android:id="@+id/starRating1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:numStars="1"
+                android:rating="1"
+                android:isIndicator="true" />
+
+            <TextView
+                android:layout_gravity="right|center_vertical"
+                android:gravity="right|center_vertical"
+                android:layout_marginLeft="50dp"
+                android:text="31149983##" />
+        </TableRow>
+
+        <!-- Another row with 1-star rating and text -->
+        <TableRow>
+            <RatingBar
+                android:id="@+id/starRating2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:numStars="1"
+                android:rating="1"
+                android:isIndicator="true" />
+
+            <TextView
+                android:layout_gravity="right|center_vertical"
+                android:gravity="right|center_vertical"
+                android:layout_marginLeft="50dp"
+                android:text="adiaz649@unab.edu.co" />
+        </TableRow>
+
+        <!-- Another row with 1-star rating and text -->
+        <TableRow>
+            <RatingBar
+                android:id="@+id/starRating3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:numStars="1"
+                android:rating="1"
+                android:isIndicator="true" />
+
+            <TextView
+                android:layout_gravity="right|center_vertical"
+                android:gravity="right|center_vertical"
+                android:layout_marginLeft="50dp"
+                android:text="adiaz649" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/backButton1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Regresar al menu"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp" />
+</LinearLayout>
+
+
